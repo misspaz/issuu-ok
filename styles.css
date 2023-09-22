@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.headerbar {
+  background-color: rgb(244, 244, 244);
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid black;
+}
+
+.logo {
+  width: 25%;
+  height: 100%;
+  display: flex;
+}
+
+.navbar {
+  width: 15%;
+  height: 100%;
+  display: flex;
+}
+
+.logo-img {
+  height: 100%;
+  padding: 10px;
+  
+}
+
+.navbar-ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  align-content: center;
+  list-style-type: none;
+}
+
+.navbar-ul-li {
+  font-family: sans-serif;
+  color: rgb(64, 64, 64);
+}
+
+span {
+  color: rgb(47, 22, 188);
+}
+
+.signin {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 150px;
+  top: 50px;
+}
+
+.create {
+  
+  width: 100%;
+  height: 200px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 25px;
+}
+
+.create-form {
+  
+ 
+  height: 300px;
+  
+  display: flex;
+  font-family: sans-serif;
+}
+
+.h1-title {
+  font-family: sans-serif;
+  position: relative;
+  top: 20px;
+  left: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.botones {
+  width: 50%;
+  height: 20%;
+  display: flex;
+  position: relative;
+  left: 50px;
+  align-items: center
+}
+
+.a-google-img {
+  width: 30%;
+  height: 100%;
+  display: flex;
+}
+
+.a-fb-img {
+  width: 50%;
+  height: 80%;
+  display: flex;
+}
+
+.p-mail {
+  font-family: sans-serif;
+  position: relative;
+  left: 50px;
+  top: 25px;
+}
+
+#email-label{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 5px;
+}
+#email{
+  display: flex;
+  width: 100%;
+  
+}
+
+#password{
+display: flex;
+width: 100%;
+
+}
+
+#password-label{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+form{
+  position: relative;
+  left: 50px;
+}
+
+#checkbox{
+  font-family: sans-serif;
+  margin-top:15px;
+}
+#submit{
+  display: block;
+  margin-top: 25px;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-style: dashed;
+  border-color: rgb(218, 218, 218);
+  background-color: rgb(201, 201, 201);
+  color: rgb(180, 174, 174);
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+footer{
+  font-family: sans-serif;
+  height: 100px;
+  display: flex;
+  font-size: 10px;
+}
+
+ul{
+  position: relative;
+  display: flex;
+  left: 55px;
+ 
+}
+
+li{
+  width: 100px;
+  height: 25px;
+}
